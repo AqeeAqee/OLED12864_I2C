@@ -169,7 +169,7 @@ namespace OLED12864_I2C {
         
         //cmd1(0x00 | (c % 16)) // lower start column address
         //aqee,test for SH1106
-        cmd1(0x00 | (c % 16)) // lower start column address
+        cmd1(0x02 | (c % 16)) // lower start column address
         
         cmd1(0x10 | (c >> 4)) // upper start column address    
     }
